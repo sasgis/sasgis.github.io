@@ -1,0 +1,111 @@
+site_name: Documentation for the SAS.Planet application
+site_url: https://sasgis.github.io/
+repo_url: https://github.com/sasgis/sasgis.github.io/
+edit_uri: blob/master/docs/
+
+theme:
+  name: material
+
+  favicon: assets/favicon.ico
+  
+  icon: 
+    logo: material/book-open-page-variant
+  
+  palette:
+    - scheme: default # Light mode
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+        
+    - scheme: slate # Dark mode
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  features:
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.footnote.tooltips
+ 
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+  
+markdown_extensions:
+  - tables
+  - smarty
+  - admonition
+  - footnotes
+  - pymdownx.fancylists
+  - pymdownx.highlight: # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+#  - Setup: 
+#    - setup-dem.md    
+#    - setup-geocoder.md
+#    - setup-routing.md
+#    - setup-googleearth.md
+  - Maps description format: 
+    - Base information: zmp.md
+    - Params.txt: zmp-params-txt.md
+    - GetUrlScript.txt: zmp-geturlscript-txt.md
+    - URL templates: zmp-url-templates.md
+    - EPSG codes: zmp-epsg-codes.md
+  - Knowledge base:
+    - What is a Tile?: tile.md
+    - coordinate-system.md  
+  
+plugins:
+  - privacy
+  - offline
+  - search
+  
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_search: true
+      reconfigure_material: true
+      languages:
+        - locale: en          
+          name: English
+          build: true
+        - locale: ru
+          name: Русский
+          build: true
+          default: true
+          site_name: Документация программы SAS.Планета
+          theme:
+            palette:                
+              - scheme: default
+                toggle:                    
+                  name: Включить тёмную тему
+              - scheme: slate
+                toggle:                    
+                  name: Включить светлую тему
+          nav_translations:
+            Home: Главная
+            Maps description format: Формат описания карт
+            Base information: Общие сведения
+            URL templates: Шаблоны URL
+            EPSG codes: EPSG коды проекции
+            Configuration files: Файлы настроек
+            Knowledge base: База знаний
+            What is a Tile?: Что такое тайл?
+
+  - git-revision-date-localized: # https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/
+      fallback_to_build_date: true
+
+  - minify: # https://github.com/byrnereese/mkdocs-minify-plugin
+      minify_html: true

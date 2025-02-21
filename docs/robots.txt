@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://sasgis.github.io/sitemap.xml
