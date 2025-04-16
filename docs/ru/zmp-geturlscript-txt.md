@@ -53,9 +53,9 @@ end;
 
 ```delphi
 var
-  VRequestUrl, VRequestHeader, VPostData: string;
+  VRequestUrl, VRequestHeader, VPostData: AnsiString;
   VResponseCode: Cardinal;
-  VResponseHeader, VResponseData: string; 
+  VResponseHeader, VResponseData: AnsiString; 
 begin 
   if Assigned(Downloader) then begin
     VRequestUrl := 'https://google.com/';

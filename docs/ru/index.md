@@ -2,8 +2,8 @@
 
 ## Ссылки для загрузки
 
-* [Release](https://github.com/sasgis/sas.planet.src/releases/) - стабильная (релизная) версия.
-* [Nightly](https://bitbucket.org/sas_team/sas.planet.bin/downloads/) - ночная (тестовая) версия.
+* [Release](https://github.com/sasgis/sas.planet.src/releases/latest) - стабильная (релизная) версия.
+* [Nightly](https://github.com/sasgis/sas.planet.src/releases/tag/nightly) - ночная (тестовая) версия.
 
 ## Как установить программу
 
