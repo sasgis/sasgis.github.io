@@ -57,9 +57,13 @@
 | 61 | BerkeleyDB (Versioned) | `cache_dbv/{name}/z{z+1}/{x/1024}/{y/1024}/{x/256}.{y/256}.sdbv` |
 | 7 | DBMS (СУБД) |
 | 71 | SQLite3 | `cache_sqlite/{name}/z{z+1}/{x/1024}/{y/1024}/{x/256}.{y/256}.sqlitedb` <br> Создаётся несколько баз SQLite, каждая из которых содержит квадрат из 256×256 тайлов. [Тикет 1376](http://www.sasgis.org/mantis/view.php?id=1376#c10961) |
-| 72 | [MBTiles](https://wiki.openstreetmap.org/wiki/MBTiles) | Экспорт: `*.mbtiles`<br> Используется одна база SQLite. [Тикет 1376](http://www.sasgis.org/mantis/view.php?id=1376) <br> [Спецификация MapBox](https://github.com/mapbox/mbtiles-spec) |
+| 72 | [MBTiles](https://wiki.openstreetmap.org/wiki/MBTiles) | `cache_mbtiles/{name}/{name}.mbtiles` <br> Используется одна база SQLite. [Тикет 1919](http://www.sasgis.org/mantis/view.php?id=1919) <br> [Спецификация MapBox](https://github.com/mapbox/mbtiles-spec) |
+| 73 | OsmAnd | `cache_osmand/{name}/{name}.sqlitedb` <br> Используется одна база SQLite. [Тикет 1919](http://www.sasgis.org/mantis/view.php?id=1919) |
+| 74 | Locus | `cache_locus/{name}/{name}.sqlitedb` <br> Используется одна база SQLite. [Тикет 1919](http://www.sasgis.org/mantis/view.php?id=1919)  |
+| 75 | RMaps | `cache_rmaps/{name}/{name}.sqlitedb` <br> Используется одна база SQLite. [Тикет 1919](http://www.sasgis.org/mantis/view.php?id=1919)  |
+| 76 | OruxMaps | Кэш только для чтения. <br> Используется одна база SQLite + файл с метаданными. [Тикет 1919](http://www.sasgis.org/mantis/view.php?id=1919)  |
 | 8 | GeoCacher |  `cache_gc/` |
-| 9 | RAM (на диск не записываются) | [Тикет 1755](http://www.sasgis.org/mantis/view.php?id=1755) |
+| 9 | RAM | Кэш в памяти. Тайлы на диск не записываются, кэш имеет ограниченный объём и время жизни. [Тикет 1755](http://www.sasgis.org/mantis/view.php?id=1755) |
 
 - **IsReadOnly** - использовать кэш в режиме "Только чтение". Не обязательный, по умолчанию равен `0`
 - **AllowRead**, **AllowScan**, **AllowAdd**, **AllowDelete**, **AllowReplace** - тонкая настройка разрешённых операций для кэша тайлов
@@ -136,6 +140,8 @@
 
 - **DefHotKey** — сочетание горячих клавиш для данной карты.
 - **License** - текст лицензии, который будет выводиться в левом верхнем углу карты. Требуется для соблюдения условий распространения некоторых карт.
+- **BigIconName**, **SmallIconName** - имя файла с иконкой 24x24 пикселей и 18x18 пикселей соответственно. По умолчанию, программа ищет иконки с именами 24.bmp, 24.png и 18.bmp, 18.png соответственно. Иконка размером 18x18 опциональна, при её отсутствии она будет сгенерирована автоматически из иконки 24x24 пикселей.
+- **MapCenter** - координаты и зум центра карты. Значения указываются через запятую, без пробелов, в формате: долгота, широта, зум (нумерация зума начинается с нуля). Например, Сан-Франциско: `-122.1906,37.7599,11`
 
 ## **[ViewInfo]**
 
