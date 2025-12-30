@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://sasgis.github.io/index.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/index.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/coordinate-system.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/coordinate-system.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/coordinate-system.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/debug-version.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/debug-version.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/debug-version.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/setup-dem.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/setup-dem.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/setup-dem.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/setup-geocoder.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/setup-geocoder.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/setup-geocoder.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/tile.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/tile.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/tile.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/zmp-epsg-codes.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/zmp-epsg-codes.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/zmp-epsg-codes.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/zmp-example-base.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/zmp-example-base.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/zmp-example-base.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/zmp-example-cut-tiles.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/zmp-example-cut-tiles.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/zmp-example-cut-tiles.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/zmp-example-how-to-download-zoom-range.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/zmp-example-how-to-download-zoom-range.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/zmp-example-how-to-download-zoom-range.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/zmp-geturlscript-txt.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/zmp-geturlscript-txt.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/zmp-geturlscript-txt.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/zmp-params-txt.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/zmp-params-txt.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/zmp-params-txt.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/zmp-url-templates.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/zmp-url-templates.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/zmp-url-templates.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/zmp.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/zmp.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/zmp.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/en/index.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/index.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/en/debug-version.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/debug-version.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/debug-version.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/en/coordinate-system.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/coordinate-system.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/coordinate-system.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/en/setup-dem.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/setup-dem.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/setup-dem.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/en/setup-geocoder.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/setup-geocoder.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/setup-geocoder.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/en/tile.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/tile.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/tile.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/en/zmp-epsg-codes.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/zmp-epsg-codes.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/zmp-epsg-codes.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/en/zmp-example-base.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/zmp-example-base.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/zmp-example-base.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/en/zmp-example-cut-tiles.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/zmp-example-cut-tiles.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/zmp-example-cut-tiles.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/en/zmp-example-how-to-download-zoom-range.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/zmp-example-how-to-download-zoom-range.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/zmp-example-how-to-download-zoom-range.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/en/zmp-geturlscript-txt.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/zmp-geturlscript-txt.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/zmp-geturlscript-txt.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/en/zmp-params-txt.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/zmp-params-txt.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/zmp-params-txt.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/en/zmp-url-templates.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/zmp-url-templates.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/zmp-url-templates.html"/>
+    </url>
+    <url>
+        <loc>https://sasgis.github.io/en/zmp.html</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sasgis.github.io/en/zmp.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://sasgis.github.io/zmp.html"/>
+    </url>
+</urlset>
