@@ -4,7 +4,8 @@ repo_url: https://github.com/sasgis/sasgis.github.io/
 edit_uri: blob/master/docs/
 
 theme:
-  name: material
+  name: materialx
+  language: ru
 
   favicon: assets/favicon.ico
   
@@ -12,15 +13,23 @@ theme:
     logo: material/book-open-page-variant
   
   palette:
-    - scheme: default # Light mode
+    # Palette toggle for light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
-        icon: material/weather-night
+        icon: material/brightness-7 
         name: Switch to dark mode
-        
-    - scheme: slate # Dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: cyan
+      accent: cyan
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-4
         name: Switch to light mode
+
+  topbar_style: primary
 
   features:
     - navigation.top
@@ -32,6 +41,13 @@ theme:
  
 extra:
   generator: false
+
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Русский
+      lang: ru
 
 extra_css:
   - stylesheets/extra.css
@@ -79,7 +95,7 @@ plugins:
       reconfigure_search: true
       reconfigure_material: true
       languages:
-        - locale: en          
+        - locale: en
           name: English
           build: true
         - locale: ru
@@ -88,12 +104,12 @@ plugins:
           default: true
           site_name: Документация программы SAS.Планета
           theme:
-            palette:                
+            palette:
               - scheme: default
-                toggle:                    
+                toggle:
                   name: Включить тёмную тему
               - scheme: slate
-                toggle:                    
+                toggle:
                   name: Включить светлую тему
           nav_translations:
             Home: Главная
@@ -105,9 +121,6 @@ plugins:
             Knowledge base: База знаний
             What is a Tile?: Что такое тайл?
             What is a Debug version?: Что такое дебажная версия?
-
-  - git-revision-date-localized: # https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/
-      fallback_to_build_date: true
 
   - minify: # https://github.com/byrnereese/mkdocs-minify-plugin
       minify_html: true

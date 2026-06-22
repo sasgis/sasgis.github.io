@@ -1,5 +1,5 @@
 
-Для создания документации используется генератор статических сайтов [MkDocs](https://www.mkdocs.org/) с темой оформления [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/).
+Для создания документации используется генератор статических сайтов [MkDocs](https://www.mkdocs.org/) с темой оформления [MaterialX](https://jaywhj.github.io/mkdocs-materialx/).
 
 ## Краткая инструкция
 

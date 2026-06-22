@@ -2,7 +2,7 @@
 
 set venv=.env
 
-set pk=mkdocs mkdocs-material mkdocs-static-i18n mkdocs-git-revision-date-localized-plugin mkdocs-minify-plugin
+set pk=mkdocs mkdocs-materialx mkdocs-static-i18n mkdocs-minify-plugin
 
 if not exist %venv%\ (
   python -m venv %venv%
