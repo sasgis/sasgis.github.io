@@ -47,23 +47,23 @@
 | 3 | EarthSlicer 1.95 | `cache_es/{name}/xx-xxx-xxx/{z+1}/xxxxxxx/{z+1}-{x}-{y}.{ext}` <br> Тайловый кэш в формате программы EarthSlicer|
 | 4 | GlobalMapper Tiles (GMT) | `cache_gmt/{name}/z{z}/{x}/{y}.{ext}` |
 | 41 | GlobalMapper Aux | `cache_gmt/{name}/z{z}/{y}_{x}.{ext}` |
-| 42 | GlobalMapper Bing | `cache_gmt/{name}/{z}/{y}/{x}.{ext}` <br> [Тикет 780](http://www.sasgis.org/mantis/view.php?id=780)|
-| 43 | [Mobile Atlas Creator (MOBAC)](https://mobac.sourceforge.io/) | `cache_ma/{name}/{z}/{x}/{y}.{ext}` <br> [Тикет 1936](http://www.sasgis.org/mantis/view.php?id=1936). Тип кэша известен как [Slippy map](https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames). Нумерация тайлов как в [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames) и Google. Кэш подключается к QGIS, [MapProxy](https://mapproxy.github.io/mapproxy/latest/caches.html#cache-file). Для использования с [JOSM](https://josm.openstreetmap.de/): <br> `tms:file:///home/user/SAS/cache_ma/sat/{z}/{x}/{y}.jpg` (Linux) <br> `tms[18]:file:///c:/SAS/cache_ma/sat/{z}/{x}/{y}.jpg` (Windows)
-| 44 | OsmAnd+ Tiles | Экспорт: `{z}/{x}/{y}.{ext}.tile` [(тикет 884)](http://www.sasgis.org/mantis/view.php?id=884). <br> Не то же самое что "OsmAnd (SQLite3)" `*.sqlitedb` [(тикет 3577)](http://www.sasgis.org/mantis/view.php?id=3577) |
-| 45 | [Tile Map Service (TMS)](https://wiki.openstreetmap.org/wiki/TMS) | `cache_tms/{name}/{z}/{x}/{-y}.{ext}` <br> [Тикет 2848](http://www.sasgis.org/mantis/view.php?id=2848), Спецификация на [osgeo.org](https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification) |
+| 42 | GlobalMapper Bing | `cache_gmt/{name}/{z}/{y}/{x}.{ext}` <br> [Тикет 780](https://www.sasgis.org/mantis/view.php?id=780)|
+| 43 | [Mobile Atlas Creator (MOBAC)](https://mobac.sourceforge.io/) | `cache_ma/{name}/{z}/{x}/{y}.{ext}` <br> [Тикет 1936](https://www.sasgis.org/mantis/view.php?id=1936). Тип кэша известен как [Slippy map](https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames). Нумерация тайлов как в [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames) и Google. Кэш подключается к QGIS, [MapProxy](https://mapproxy.github.io/mapproxy/latest/caches.html#cache-file). Для использования с [JOSM](https://josm.openstreetmap.de/): <br> `tms:file:///home/user/SAS/cache_ma/sat/{z}/{x}/{y}.jpg` (Linux) <br> `tms[18]:file:///c:/SAS/cache_ma/sat/{z}/{x}/{y}.jpg` (Windows)
+| 44 | OsmAnd+ Tiles | Экспорт: `{z}/{x}/{y}.{ext}.tile` [(тикет 884)](https://www.sasgis.org/mantis/view.php?id=884). <br> Не то же самое что "OsmAnd (SQLite3)" `*.sqlitedb` [(тикет 3577)](https://www.sasgis.org/mantis/view.php?id=3577) |
+| 45 | [Tile Map Service (TMS)](https://wiki.openstreetmap.org/wiki/TMS) | `cache_tms/{name}/{z}/{x}/{-y}.{ext}` <br> [Тикет 2848](https://www.sasgis.org/mantis/view.php?id=2848), Спецификация на [osgeo.org](https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification) |
 | 5 | Google Earth | `cache_ge/` |
 | 51 | Google Earth Terrain |  `cache_ge/` |
 | 6 | [BerkeleyDB](https://ru.wikipedia.org/wiki/Berkeley_DB) | `cache_db/{name}/z{z+1}/{x/1024}/{y/1024}/{x/256}.{y/256}.sdb` |
 | 61 | BerkeleyDB (Versioned) | `cache_dbv/{name}/z{z+1}/{x/1024}/{y/1024}/{x/256}.{y/256}.sdbv` |
 | 7 | DBMS (СУБД) |
-| 71 | SQLite3 | `cache_sqlite/{name}/z{z+1}/{x/1024}/{y/1024}/{x/256}.{y/256}.sqlitedb` <br> Создаётся несколько баз SQLite, каждая из которых содержит квадрат из 256×256 тайлов. [Тикет 1376](http://www.sasgis.org/mantis/view.php?id=1376#c10961) |
-| 72 | [MBTiles](https://wiki.openstreetmap.org/wiki/MBTiles) | `cache_mbtiles/{name}/{name}.mbtiles` <br> Используется одна база SQLite. [Тикет 1919](http://www.sasgis.org/mantis/view.php?id=1919) <br> [Спецификация MapBox](https://github.com/mapbox/mbtiles-spec) |
-| 73 | OsmAnd | `cache_osmand/{name}/{name}.sqlitedb` <br> Используется одна база SQLite. [Тикет 1919](http://www.sasgis.org/mantis/view.php?id=1919) |
-| 74 | Locus | `cache_locus/{name}/{name}.sqlitedb` <br> Используется одна база SQLite. [Тикет 1919](http://www.sasgis.org/mantis/view.php?id=1919)  |
-| 75 | RMaps | `cache_rmaps/{name}/{name}.sqlitedb` <br> Используется одна база SQLite. [Тикет 1919](http://www.sasgis.org/mantis/view.php?id=1919)  |
-| 76 | OruxMaps | Кэш только для чтения. <br> Используется одна база SQLite + файл с метаданными. [Тикет 1919](http://www.sasgis.org/mantis/view.php?id=1919)  |
+| 71 | SQLite3 | `cache_sqlite/{name}/z{z+1}/{x/1024}/{y/1024}/{x/256}.{y/256}.sqlitedb` <br> Создаётся несколько баз SQLite, каждая из которых содержит квадрат из 256×256 тайлов. Тикеты [1920](https://www.sasgis.org/mantis/view.php?id=1920) и [1376](https://www.sasgis.org/mantis/view.php?id=1376#c10961) |
+| 72 | [MBTiles](https://wiki.openstreetmap.org/wiki/MBTiles) | `cache_mbtiles/{name}/{name}.mbtiles` <br> Используется одна база SQLite. [Тикет 1919](https://www.sasgis.org/mantis/view.php?id=1919) <br> [Спецификация MapBox](https://github.com/mapbox/mbtiles-spec) |
+| 73 | OsmAnd | `cache_osmand/{name}/{name}.sqlitedb` <br> Используется одна база SQLite. [Тикет 1919](https://www.sasgis.org/mantis/view.php?id=1919) |
+| 74 | Locus | `cache_locus/{name}/{name}.sqlitedb` <br> Используется одна база SQLite. [Тикет 1919](https://www.sasgis.org/mantis/view.php?id=1919)  |
+| 75 | RMaps | `cache_rmaps/{name}/{name}.sqlitedb` <br> Используется одна база SQLite. [Тикет 1919](https://www.sasgis.org/mantis/view.php?id=1919)  |
+| 76 | OruxMaps | Кэш только для чтения. <br> Используется одна база SQLite + файл с метаданными. [Тикет 1919](https://www.sasgis.org/mantis/view.php?id=1919)  |
 | 8 | GeoCacher |  `cache_gc/` |
-| 9 | RAM | Кэш в памяти. Тайлы на диск не записываются, кэш имеет ограниченный объём и время жизни. [Тикет 1755](http://www.sasgis.org/mantis/view.php?id=1755) |
+| 9 | RAM | Кэш в памяти. Тайлы на диск не записываются, кэш имеет ограниченный объём и время жизни. [Тикет 1755](https://www.sasgis.org/mantis/view.php?id=1755) |
 
 - **IsReadOnly** - использовать кэш в режиме "Только чтение". Не обязательный, по умолчанию равен `0`
 - **AllowRead**, **AllowScan**, **AllowAdd**, **AllowDelete**, **AllowReplace** - тонкая настройка разрешённых операций для кэша тайлов
